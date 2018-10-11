@@ -12,9 +12,9 @@ const defaultOptions = {
   token: ''
 };
 
-function githubSync ( options? ) {
+function githubSync ( customOptions?: Partial<typeof defaultOptions> ) {
 
-  options = Object.assign ( {}, defaultOptions, options );
+  const options = Object.assign ( {}, defaultOptions, customOptions );
 
   return {
     description: 'Sync commits, description and keywords with GitHub',
