@@ -29,7 +29,7 @@
     "github",
     "sync"
   ],
-	"dependencies": {
+  "dependencies": {
     "autogit-plugin-github-sync-description": "^1.0.0",
     "autogit-plugin-github-sync-keywords": "^1.0.0",
     "autogit-plugin-pull": "^1.0.0",
