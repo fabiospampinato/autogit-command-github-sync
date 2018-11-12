@@ -32,4 +32,4 @@ function githubSync ( customOptions?: Partial<typeof defaultOptions> ) {
 
 /* EXPORT */
 
-export = Object.assign ( githubSync, { default: githubSync } );
+export default githubSync;
